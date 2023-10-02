@@ -19,12 +19,10 @@ To get started with the RealtyBridge Real Estate GitHub project, follow these st
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/realtybridge/real-estate.git
+   git clone https://github.com/Jayminai/RealtyBridge.git
    ```
 
 2. **Explore the Documentation**: Take a look at our extensive documentation in the `docs` folder to understand the project's structure, features, and how to use them effectively.
-
-3. **Join the Community**: Connect with other real estate professionals and enthusiasts on our [community forum](https://forum.realtybridge.com). Share your thoughts, ask questions, and collaborate on real estate-related topics.
 
 ## Features
 
