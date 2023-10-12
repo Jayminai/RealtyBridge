@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@100;200;300;400&display=swap');
 
 :root{
-   --main-color:#DA2C32;
+   --main-color: rgb(192, 16, 16);
    --light-color:#666;
    --light-bg:#eee;
    --white:#fff;
@@ -180,7 +180,7 @@ section{
 }
 
 .home{
-   background:url('../images/home-bg.jpg') no-repeat;
+   background:url('../images/hero-1.jpg') no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -1047,3 +1047,24 @@ section{
    }
 
 }
+
+/* Media query for smaller screens, e.g., tablets */
+@media screen and (max-width: 768px) {
+   .footer .flex {
+      flex-direction: column;
+   }
+
+   .footer .flex .box {
+      flex: 1 1 100%;
+      text-align: left;
+   }
+
+   .footer .flex .box:last-child {
+      text-align: left;
+   }
+}
+
+
+
+
+
