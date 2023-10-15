@@ -1028,6 +1028,7 @@ section{
 
    html{
       font-size: 50%;
+      overflow: hidden;
    }
 
    .header .navbar .flex .logo{
@@ -1061,6 +1062,10 @@ section{
 
    .footer .flex .box:last-child {
       text-align: left;
+   }
+
+   .footer .flex .box:nth-child(2) a {
+      text-align: left; /* Align the links to the left on smaller screens */
    }
 }
 
