@@ -56,7 +56,7 @@ body{
 }
 
 html{
-   font-size: 62.5%;
+   font-size: 50%;
    overflow-x: visible;
    scroll-behavior: smooth;
    scroll-padding-top: 10rem;
