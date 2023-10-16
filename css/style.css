@@ -21,10 +21,6 @@
    align-items: center;
 }
 
-.logo-title{
-   font-weight: bolder;
-}
-
 *{
    font-family: 'Roboto', sans-serif;
    margin: 0; padding: 0;
@@ -54,7 +50,7 @@
 
 html{
    font-size: 62.5%;
-   /* overflow-x: hidden; */
+   overflow-x: hidden;
    scroll-behavior: smooth;
    scroll-padding-top: 10rem;
 }
@@ -1043,7 +1039,6 @@ section{
 
    html{
       font-size: 50%;
-      overflow: hidden;
    }
 
    .header .navbar .flex .logo{
@@ -1077,10 +1072,6 @@ section{
 
    .footer .flex .box:last-child {
       text-align: left;
-   }
-
-   .footer .flex .box:nth-child(2) a {
-      text-align: left; /* Align the links to the left on smaller screens */
    }
 }
 
