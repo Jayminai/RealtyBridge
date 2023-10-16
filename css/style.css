@@ -10,6 +10,9 @@
    --box-shodow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
+body{
+      overflow: visible;
+   }
 .logo-img{
    max-width: 50px;
    height: auto;
@@ -54,7 +57,7 @@
 
 html{
    font-size: 62.5%;
-   /* overflow-x: hidden; */
+   overflow-x: visible;
    scroll-behavior: smooth;
    scroll-padding-top: 10rem;
 }
