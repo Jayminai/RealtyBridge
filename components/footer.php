@@ -12,10 +12,10 @@
       </div>
 
       <div class="box">
-         <a href="home.html"><span>Home</span></a>
-         <a href="about.html"><span>About</span></a>
-         <a href="contact.html"><span>Contact</span></a>
-         <a href="listings.html"><span>All listings</span></a>
+         <a href="home.php"><span>Home</span></a>
+         <a href="about.php"><span>About</span></a>
+         <a href="contact.php"><span>Contact</span></a>
+         <a href="listings.php"><span>All listings</span></a>
          <a href="#"><span>Saved properties</span></a>
       </div>
 
