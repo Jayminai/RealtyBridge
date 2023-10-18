@@ -30,8 +30,8 @@ if(isset($_POST['post'])){
    $furnished = filter_var($furnished, FILTER_SANITIZE_STRING);
    $bhk = $_POST['bhk'];
    $bhk = filter_var($bhk, FILTER_SANITIZE_STRING);
-   $bhk = $_POST['bhk'];
-   $bhk = filter_var($bhk, FILTER_SANITIZE_STRING);
+   $bedroom = $_POST['bedroom'];
+   $bedroom = filter_var($bedroom, FILTER_SANITIZE_STRING);
    $bathroom = $_POST['bathroom'];
    $bathroom = filter_var($bathroom, FILTER_SANITIZE_STRING);
    $balcony = $_POST['balcony'];
@@ -205,8 +205,8 @@ if(isset($_POST['post'])){
    if($image_01_size > 2000000){
       $warning_msg[] = 'image 01 size too large!';
    }else{
-      $insert_property = $conn->prepare("INSERT INTO `property`(id, user_id, property_name, address, price, type, offer, status, furnished, BHK, deposite, BHK, bathroom, balcony, carpet, age, total_floors, room_floor, loan, lift, security_guard, play_ground, garden, water_supply, power_backup, parking_area, gym, shopping_mall, hospital, school, market_area, image_01, image_02, image_03, image_04, image_05, description) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"); 
-      $insert_property->execute([$id, $user_id, $property_name, $address, $price, $type, $offer, $status, $furnished, $bhk, $deposite, $bhk, $bathroom, $balcony, $carpet, $age, $total_floors, $room_floor, $loan, $lift, $security_guard, $play_ground, $garden, $water_supply, $power_backup, $parking_area, $gym, $shopping_mall, $hospital, $school, $market_area, $rename_image_01, $rename_image_02, $rename_image_03, $rename_image_04, $rename_image_05, $description]);
+      $insert_property = $conn->prepare("INSERT INTO `property`(id, user_id, property_name, address, price, type, offer, status, furnished, bhk, deposite, bedroom, bathroom, balcony, carpet, age, total_floors, room_floor, loan, lift, security_guard, play_ground, garden, water_supply, power_backup, parking_area, gym, shopping_mall, hospital, school, market_area, image_01, image_02, image_03, image_04, image_05, description) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"); 
+      $insert_property->execute([$id, $user_id, $property_name, $address, $price, $type, $offer, $status, $furnished, $bhk, $deposite, $bedroom, $bathroom, $balcony, $carpet, $age, $total_floors, $room_floor, $loan, $lift, $security_guard, $play_ground, $garden, $water_supply, $power_backup, $parking_area, $gym, $shopping_mall, $hospital, $school, $market_area, $rename_image_01, $rename_image_02, $rename_image_03, $rename_image_04, $rename_image_05, $description]);
       move_uploaded_file($image_01_tmp_name, $image_01_folder);
       $success_msg[] = 'property posted successfully!';
    }
@@ -301,18 +301,18 @@ if(isset($_POST['post'])){
             </select>
          </div>
          <div class="box">
-            <p>how many bhk <span>*</span></p>
-            <select name="bhk" required class="input">
-               <option value="0">0 BHK</option>
-               <option value="1" selected>1 BHK</option>
-               <option value="2">2 BHK</option>
-               <option value="3">3 BHK</option>
-               <option value="4">4 BHK</option>
-               <option value="5">5 BHK</option>
-               <option value="6">6 BHK</option>
-               <option value="7">7 BHK</option>
-               <option value="8">8 BHK</option>
-               <option value="9">9 BHK</option>
+            <p>how many bedrooms <span>*</span></p>
+            <select name="bedroom" required class="input">
+               <option value="0">0 bedroom</option>
+               <option value="1" selected>1 bedroom</option>
+               <option value="2">2 bedroom</option>
+               <option value="3">3 bedroom</option>
+               <option value="4">4 bedroom</option>
+               <option value="5">5 bedroom</option>
+               <option value="6">6 bedroom</option>
+               <option value="7">7 bedroom</option>
+               <option value="8">8 bedroom</option>
+               <option value="9">9 bedroom</option>
             </select>
          </div>
          <div class="box">
