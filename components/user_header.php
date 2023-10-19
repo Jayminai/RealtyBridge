@@ -30,15 +30,15 @@
                </li>
                <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
                   <ul>
-                     <li><a href="#">Post property</a></li>
-                     <li><a href="#">Dashboard</a></li>
+                     <li><a href="post_property.php">Post property</a></li>
+                     <li><a href="dashboard.php">Dashboard</a></li>
                   </ul>
                </li>
                <li><a href="#">Rent</a>
                   <ul>
-                     <li><a href="#">House</a></li>
-                     <li><a href="#">Flat</a></li>
-                     <li><a href="#">Shop</a></li>
+                     <li><a href="listings.php">House</a></li>
+                     <li><a href="listings.php">Flat</a></li>
+                     <li><a href="listings.php">Shop</a></li>
                   </ul>
                </li>
                <li><a href="#">Customer service<i class="fas fa-angle-down"></i></a>
@@ -50,20 +50,21 @@
                </li>
             </ul>
          </div>
-
          <ul>
-            <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+            <li><a href="saved.php">Saved <i class="far fa-heart"></i></a></li>
             <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
                <ul>
-                  <li><a href="login.php">Login now</a></li>
-                  <li><a href="register.php">Register new</a></li>
-                  <?php if($user_id != ''){ ?>
-                  <li><a href="update.php">update profile</a></li>
-                  <li><a href="components/user_logout.php" onclick="return confirm('logout from this website?');">logout</a>
-                  <?php } ?></li>
+                     <?php if($user_id == '') { ?>
+                        <li><a href="login.php">Login now</a></li>
+                        <li><a href="register.php">Register new</a></li>
+                     <?php } else { ?>
+                        <li><a href="update.php">Update profile</a></li>
+                        <li><a href="components/user_logout.php" onclick="return confirm('Logout from this website?');">Logout</a></li>
+                     <?php } ?>
                </ul>
             </li>
          </ul>
+
       </section>
    </nav>
 
