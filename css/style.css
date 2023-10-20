@@ -1358,5 +1358,24 @@ section{
    .listings .box-container form .box .thumb{
       height: 20rem;
    }
+   
+}
 
+/* Media query for smaller screens*/
+@media screen and (max-width: 768px) {
+   .footer .flex {
+      flex-direction: column;
+   }
+
+   .footer .flex .box {
+      flex: 1 1 100%;
+   }
+
+   .footer .flex .box:last-child {
+      text-align: left;
+   }
+
+   .footer .flex .box:nth-child(2) a {
+      text-align: left; /* Align the links to the left on smaller screens */
+   }
 }

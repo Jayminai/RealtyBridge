@@ -31,7 +31,6 @@
                <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
                   <ul>
                      <li><a href="post_property.php">Post property</a></li>
-                     <li><a href="dashboard.php">Dashboard</a></li>
                   </ul>
                </li>
                <li><a href="#">Rent</a>
@@ -58,6 +57,7 @@
                         <li><a href="login.php">Login now</a></li>
                         <li><a href="register.php">Register new</a></li>
                      <?php } else { ?>
+                        <li><a href="dashboard.php">Dashboard</a></li>
                         <li><a href="update.php">Update profile</a></li>
                         <li><a href="components/user_logout.php" onclick="return confirm('Logout from this website?');">Logout</a></li>
                      <?php } ?>
