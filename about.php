@@ -94,7 +94,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-1.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>David Culver</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -111,13 +111,13 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-2.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>Sarah Mucha</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  <i class="fas fa-star"></i>
                </div>
             </div>
          </div>
@@ -128,7 +128,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-3.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>Josh Campbell</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -145,7 +145,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-4.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>Kate Bennett/h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -162,7 +162,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-5.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>Omar Jimenez</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -179,7 +179,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-6.png" alt="">
             <div>
-               <h3>Jay Papakay Ese</h3>
+               <h3>Sophia Yan</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
